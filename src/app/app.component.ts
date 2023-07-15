@@ -6,11 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  choose: string = '';
-
-  changevalue(enterValue: any) {
-    this.choose = enterValue;
-  }
+  Numbers: string[] = ['One', 'Two', 'Three'];
 }
 
 /*
